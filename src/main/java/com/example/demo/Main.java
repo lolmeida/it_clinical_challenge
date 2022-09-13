@@ -2,9 +2,9 @@ package com.example.demo;
 
 public class Main {
     public static void main(String[] args) {
-        ItClinic itClinic= new ItClinic();
-        String s= "ItCLINiCAL";
+        Service service = new Service();
+        String s= "ICLINCAL";
         int n = 1;
-        itClinic.problem(s, n);
+        service.candidatura(s, n);
     }
 }
